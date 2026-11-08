@@ -1,0 +1,87 @@
+html {
+    background-color: black;
+    font-family: "Quattrocento", sans-serif;
+    font-style: normal;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo-Yosai{
+    position: fixed;
+    max-width: 40%;
+    min-height: 20%;
+    top: 20%;
+    left: 30%;
+}
+
+.sushi-hashi{
+    position: fixed;
+    max-width: 15%;
+    min-height: 10%;
+    top: 60%;
+    left: 80%;
+}
+
+h1{
+    position: fixed;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 50vh;
+    left: 42vw;
+}
+
+.botao-cardapio{
+    position: fixed;
+    color: rgb(0, 0, 0);
+    bottom: 14vw;
+    left: 40vw;
+    background-color: rgb(253, 252, 252);
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease, tranform 0.2s ease;
+}
+
+.botao-cardapio:hover {
+    background-color: rgb(102, 31, 31);
+    transform: scale(1.05);
+}
+
+.botao-fale-conosco{
+    position: fixed;
+    color: rgb(10, 10, 10);
+    bottom: 14vw;
+    right: 35vw;
+    background-color: rgb(255, 255, 255) ;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease, tranform 0.2s ease;
+}
+
+.botao-fale-conosco:hover {
+    background-color: rgb(102, 31, 31);
+    transform: scale(1.05);
+}
+
+.rodape{
+    position: fixed;
+    font-size: 1vw;
+    right: 37vw;
+    bottom: 1vw;
+    opacity: 40%;
+    text-align: center;
+}
