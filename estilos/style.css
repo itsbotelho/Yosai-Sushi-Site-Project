@@ -1,4 +1,4 @@
-html {
+html { /* Configurações iniciais do estilo do site */
     background-color: black;
     font-family: "Quattrocento", sans-serif;
     font-style: normal;
@@ -12,8 +12,8 @@ html {
     right: 0;
     left: 0;
 }
-
-.logo-Yosai{
+/*Configuraçoes da Pagina HOME*/
+.logo-Yosai{ /* Configurações de posição da Logo */
     position: fixed;
     max-width: 40%;
     min-height: 20%;
@@ -21,7 +21,7 @@ html {
     left: 30%;
 }
 
-.sushi-hashi{
+.sushi-hashi{ /* Configurações da posição do Sushi */
     position: fixed;
     max-width: 15%;
     min-height: 10%;
@@ -29,7 +29,7 @@ html {
     left: 80%;
 }
 
-h1{
+.titulo-embaixo-logo{ /* Posição do Texto abaixo da logo */
     position: fixed;
     color: white;
     font-size: 1.5vw;
@@ -37,7 +37,7 @@ h1{
     left: 42vw;
 }
 
-.botao-cardapio{
+.botao-cardapio{ /* Botão do Cardapio */
     position: fixed;
     color: rgb(0, 0, 0);
     bottom: 14vw;
@@ -52,12 +52,12 @@ h1{
     transition: background-color 0.3s ease, tranform 0.2s ease;
 }
 
-.botao-cardapio:hover {
+.botao-cardapio:hover { /* Botão expandir e mudar de cor */
     background-color: rgb(102, 31, 31);
     transform: scale(1.05);
 }
 
-.botao-fale-conosco{
+.botao-fale-conosco{ /* Botão do Fale Conosco */
     position: fixed;
     color: rgb(10, 10, 10);
     bottom: 14vw;
@@ -72,16 +72,34 @@ h1{
     transition: background-color 0.3s ease, tranform 0.2s ease;
 }
 
-.botao-fale-conosco:hover {
+.botao-fale-conosco:hover { /* Botão expandir e mudar de cor */
     background-color: rgb(102, 31, 31);
     transform: scale(1.05);
 }
 
-.rodape{
+.rodape{ /* rodape da pagina / endereço */
     position: fixed;
     font-size: 1vw;
     right: 37vw;
     bottom: 1vw;
     opacity: 40%;
     text-align: center;
+}
+
+/*Configurações Da Pagina do Cardapio*/
+
+.titulo-cardapio{
+    color: white;
+}
+
+.sub-titulo-cardapio{
+    color: white;
+}
+
+.mini-frase-titulo{
+    color: white;
+}
+
+.tabela-do-cardapio{
+    color: white;
 }
