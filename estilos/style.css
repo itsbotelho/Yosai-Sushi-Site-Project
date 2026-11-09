@@ -78,6 +78,7 @@ html { /* Configurações iniciais do estilo do site */
 }
 
 .rodape{ /* rodape da pagina / endereço */
+    color: white;
     position: fixed;
     font-size: 1vw;
     right: 37vw;
