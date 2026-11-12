@@ -2,8 +2,6 @@ html { /* Configurações iniciais do estilo do site */
     background-color: black;
     font-family: "Quattrocento", sans-serif;
     font-style: normal;
-    min-width: 320px;
-    max-width: 1920px;
     margin: 0;
     padding: 0;
     top: 0;
@@ -89,18 +87,102 @@ html { /* Configurações iniciais do estilo do site */
 
 /*Configurações Da Pagina do Cardapio*/
 
-.titulo-cardapio{
+
+.titulo-cardapio {
     color: white;
+    text-align: center;
+    width: 200vh;
+    max-width:210vh;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .sub-titulo-cardapio{
     color: white;
+    text-align: center;
+    width: 200vh;
+    max-width:210vh;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .mini-frase-titulo{
     color: white;
+    text-align: center;
+    width: 200vh;
+    max-width:210vh;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .tabela-do-cardapio{
+    color: rgb(15, 15, 15);
+    width: 200vh;
+    max-width: 210vh;
+    font-family: "Quattrocento", sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabela-do-cardapio tbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cartao-pecas{
+    display: block;
+    width: calc(30% - 10px);
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(221, 221, 221, 0.541);
+}
+
+.cartao-pecas td {
+    display: block;
+    width: 100%;
+}
+
+.foto-sushi {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.sushi-nome {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.sushi-descricao {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.sushi-preco {
+    font-size: 17px;
+    font-weight: bold;
+    color: #972222;
+}
+
+.tabela-do-cardapio th {
     color: white;
+    display: block;
+    font-size: 1.5vw;
 }
