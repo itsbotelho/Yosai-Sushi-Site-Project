@@ -84,15 +84,63 @@ body { /* Configurações iniciais do estilo do site */
     transform: scale(1.05);
 }
 
-.rodape{ /* rodape da pagina / endereço */
+.botao-rodape { /* rodape da pagina / endereço */
     display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 1vw;
-    opacity: 40%;
-    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
     margin: 0 auto;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
 }
+
+.botao-rodape:hover {
+    background-color: rgb(168, 32, 32);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+dialog { /*Estilizar a janela do google maps*/
+    background-color: #000000;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    width: 90%;
+    max-width: 500px;
+}
+
+#mapa::backdrop { /*Desfocar o Fundo atras do mapa*/
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+}
+
+.botao-mapa-fechar { 
+    display: block;
+    font-size: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.botao-mapa-fechar:hover {
+    background-color: rgb(168, 32, 32);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
 
 /*Configurações Da Pagina do Cardapio*/
 .titulo-cardapio {
