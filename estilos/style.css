@@ -26,23 +26,51 @@ body { /* Configurações iniciais do estilo do site */
     max-height: 50vh;
     margin: 72px auto;
     margin-top: 200px;
-    margin-bottom: -70px;
+    margin-bottom: -40px;
 }
 
 .titulo-embaixo-logo{ /* Posição do Texto abaixo da logo */
     text-align: center;
-    margin-top: -35vh;
-    margin-right: 30px;
     color: white;
-    font-size: 1.5rem;
+    font-size: clamp(1.3rem, 3.5vw, 1.35rem);
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+.sushi-background1 {
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    filter: blur(5px);
+    opacity: 30%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.sushi-background2 {
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    filter: blur(5px);
+    opacity: 30%;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .area-acoes {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-top: 30px;
+    gap: 20px;
+    margin-top: 40vh;
 }
 
 .botoes{ /* Botoes */
