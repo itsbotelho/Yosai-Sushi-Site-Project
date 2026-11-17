@@ -32,15 +32,15 @@ body { /* Configurações iniciais do estilo do site */
 .titulo-embaixo-logo{ /* Posição do Texto abaixo da logo */
     text-align: center;
     color: white;
-    font-size: clamp(1.3rem, 3.5vw, 1.35rem);
+    font-size: clamp(1.2rem, 3.5vw, 1.35rem);
     margin-right: 40px;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 .sushi-background1 {
     position: fixed;
-    width: 100%;
-    max-width: 400px;
+    width: auto;
+    width: clamp(180px, 40vw, 350px);
     height: auto;
     margin: 0 auto;
     top: 0;
@@ -53,8 +53,8 @@ body { /* Configurações iniciais do estilo do site */
 
 .sushi-background2 {
     position: fixed;
-    width: 100%;
-    max-width: 400px;
+    width: auto;
+    width: clamp(180px, 40vw, 350px);
     height: auto;
     margin: 0 auto;
     bottom: 0;
@@ -120,12 +120,16 @@ body { /* Configurações iniciais do estilo do site */
     color: #ffffff;
     transform: scale(1.05);
 }
+dialog iframe {
+    width: 100%;
+}
 
 dialog { /*Estilizar a janela do google maps*/
     background-color: #000000;
     border: 1px solid #333333;
     border-radius: 12px;
-    padding: 20px;
+    box-sizing: border-box;
+    padding: clamp(12px, 10vw, 20px);
     box-shadow: 0 10px 30px rgba(148, 24, 24, 0.8);
     width: 90%;
     max-width: 500px;
@@ -176,11 +180,11 @@ dialog { /*Estilizar a janela do google maps*/
 .sub-titulo-cardapio{
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: clamp(20px, 2rem, 40px);
     border-radius: 15px;
     border: 1px solid;
     border-color: #a82020;
-    min-width: 90px;
+    min-width: 120px;
     max-width: 7%;
     padding: 2px 5px;
     margin: 0 auto;
@@ -189,13 +193,13 @@ dialog { /*Estilizar a janela do google maps*/
 .mini-frase-titulo{
     color: white;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: clamp(10px, 1rem, 40px);
     margin: 0 auto;
     border-radius: 15px;
     border: 1px solid;
     border-color: hsl(0, 68%, 39%);
-    width: 25%;
-    padding: 2px 5px;
+    width: 20%;
+    padding: 10px 30px;
     padding-bottom: 15px;
 }
 
@@ -274,8 +278,7 @@ dialog { /*Estilizar a janela do google maps*/
 .tabela-do-cardapio th {
     color: white;
     display: block;
-    font-size: 1.8vw;
-    max-width: 100%;
+    font-size: clamp(20px, 2rem, 40px);
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
